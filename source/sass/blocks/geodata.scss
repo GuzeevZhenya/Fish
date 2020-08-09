@@ -1,0 +1,46 @@
+.geodata {
+    background: url("../../images/bg.jpg") center (center/cover) no-repeat;
+    padding-top: 49px;
+    padding-bottom: 29px;
+}
+
+.geodata__items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.geodata__title {
+    width: 736px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 29px;
+    color: #00519C;
+}
+
+.geodata__item {
+    width: 22%;
+    height: 120px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(0, 35, 126, 0.06);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px 10px 0 18px;
+
+    &-title {
+        @include font-text(18px, 24px, 500);
+        color: #00519C;
+    }
+
+    &-text {
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 20px;
+        /* or 154% */
+
+
+        color: #000000;
+
+    }
+}

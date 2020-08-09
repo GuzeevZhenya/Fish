@@ -1,0 +1,23 @@
+.achievement__item {
+    margin-right: 58px;
+}
+
+.achievement__img {
+    vertical-align: top;
+}
+
+.achievement__img img {
+    height: 84px;
+    margin-bottom: 16px;
+}
+
+.achievement__text {
+    @include font-text(12px, 24px, 500);
+    max-width: 262px;
+    color: #00519C;
+}
+
+
+.certificates__achievement {
+    width: 51%;
+}
