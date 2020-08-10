@@ -22,20 +22,4 @@
 .certificates__inner {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-
-.certificates__info {
-    @include font-text(14px, 24px, 300);
-    width: 528px;
-    color: #000000;
-}
-
-.certificates__achievement {
-    display: flex;
-}
-
-.certificates__info {
-    @include font-text(14px, 24px, normal);
-    color: #000000;
 }

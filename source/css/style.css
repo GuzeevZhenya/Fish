@@ -127,13 +127,15 @@ img {
   padding-bottom: 23px;
   margin: 0 auto; }
 
+.catalog__col {
+  width: 25%; }
+
 .catalog__item {
   background: #FFFFFF;
   -webkit-box-shadow: 0px 1px 5px rgba(0, 35, 126, 0.06);
           box-shadow: 0px 1px 5px rgba(0, 35, 126, 0.06);
   border-radius: 10px;
-  margin-bottom: 29px;
-  max-width: 22%; }
+  margin-bottom: 29px; }
 
 .catalog__item:hover {
   -webkit-transform: translateY(-15px);
@@ -152,14 +154,6 @@ img {
   margin: 0 auto;
   color: #00519C;
   padding-bottom: 19px; }
-
-@media (max-width: 1400px) {
-  .catalog__item {
-    max-width: 46%; } }
-
-@media (max-width: 1150px) {
-  .catalog__item {
-    max-width: 100%; } }
 
 .btn {
   width: 226px;
@@ -282,28 +276,18 @@ img {
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+          align-items: center; }
 
-.certificates__info {
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 300;
-  width: 528px;
-  color: #000000; }
-
-.certificates__achievement {
+.achievement {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
 
-.certificates__info {
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: normal;
-  color: #000000; }
+.achievement__col {
+  width: 25%; }
+
+.achievement__info-col {
+  width: 50%; }
 
 .achievement__img {
   vertical-align: top; }
@@ -316,11 +300,13 @@ img {
   font-size: 12px;
   line-height: 24px;
   font-weight: 500;
-  max-width: 262px;
   color: #00519C; }
 
-.certificates__achievement {
-  width: 51%; }
+.achievement__info {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #000000; }
 
 .geodata {
   background: url("../../images/bg.jpg") center center/cover no-repeat;
@@ -345,8 +331,10 @@ img {
   padding-bottom: 29px;
   color: #00519C; }
 
+.geodata__col {
+  width: 22%; }
+
 .geodata__item {
-  width: 20%;
   min-height: 105px;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 1px 5px rgba(0, 35, 126, 0.06);

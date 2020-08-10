@@ -1,4 +1,14 @@
-.achievement__item {}
+.achievement {
+    display: flex;
+}
+
+.achievement__col {
+    width: 25%;
+}
+
+.achievement__info-col {
+    width: 50%;
+}
 
 .achievement__img {
     vertical-align: top;
@@ -11,10 +21,11 @@
 
 .achievement__text {
     @include font-text(12px, 24px, 500);
-    max-width: 262px;
     color: #00519C;
 }
 
-.certificates__achievement {
-    width: 51%;
+.achievement__info {
+    @include font-text(14px, 24px, 300);
+    // max-width: 528px;
+    color: #000000;
 }
