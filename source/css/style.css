@@ -278,6 +278,10 @@ img {
   color: #000000;
   padding-bottom: 51px; }
 
+.certificates__inner {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap; }
+
 .achievement {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -445,6 +449,10 @@ img {
 
 .markets {
   padding: 75px 0 110px 0; }
+
+.markets__inner {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap; }
 
 .markets__title {
   text-align: center;
