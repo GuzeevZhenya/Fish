@@ -1,5 +1,5 @@
 .catalog__col {
-    width: 25%;
+    width: 22%;
 }
 
 .catalog__item {
@@ -25,14 +25,14 @@
     padding-bottom: 19px;
 }
 
-// @media(max-width:1400px) {
-//     .catalog__item {
-//         max-width: 46%;
-//     }
-// }
+@media(max-width:1440px) {
+    .catalog__col {
+        width: 30%;
+    }
+}
 
-// @media(max-width:1150px) {
-//     .catalog__item {
-//         max-width: 100%;
-//     }
-// }
+@media(max-width:1330px) {
+    .catalog__col {
+        width: 46%;
+    }
+}

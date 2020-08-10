@@ -128,7 +128,7 @@ img {
   margin: 0 auto; }
 
 .catalog__col {
-  width: 25%; }
+  width: 22%; }
 
 .catalog__item {
   background: #FFFFFF;
@@ -154,6 +154,14 @@ img {
   margin: 0 auto;
   color: #00519C;
   padding-bottom: 19px; }
+
+@media (max-width: 1440px) {
+  .catalog__col {
+    width: 30%; } }
+
+@media (max-width: 1330px) {
+  .catalog__col {
+    width: 46%; } }
 
 .btn {
   width: 226px;
@@ -270,24 +278,16 @@ img {
   color: #000000;
   padding-bottom: 51px; }
 
-.certificates__inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-
 .achievement {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
 
 .achievement__col {
-  width: 25%; }
+  width: 22%; }
 
 .achievement__info-col {
-  width: 50%; }
+  width: 47%; }
 
 .achievement__img {
   vertical-align: top; }
@@ -354,6 +354,14 @@ img {
     /* or 154% */
     color: #000000; }
 
+@media (max-width: 1440px) {
+  .geodata__col {
+    width: 30%; } }
+
+@media (max-width: 1330px) {
+  .geodata__col {
+    width: 45%; } }
+
 .receipes {
   padding: 50px 0 72px 0;
   background: url("../../images/ice_bg (1).jpg") center center/cover no-repeat; }
@@ -372,7 +380,7 @@ img {
   display: flex; }
 
 .receipes__item {
-  width: 47%;
+  width: 44%;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 1px 5px rgba(0, 35, 126, 0.06);
           box-shadow: 0px 1px 5px rgba(0, 35, 126, 0.06);
@@ -457,7 +465,7 @@ img {
   display: block; }
 
 .news {
-  padding-bottom: 80px; }
+  padding-bottom: 65px; }
 
 .news__title {
   font-size: 36px;
@@ -472,8 +480,11 @@ img {
   display: -ms-flexbox;
   display: flex; }
 
+.news__col {
+  width: 43%; }
+
 .news__item {
-  max-width: 517px;
+  margin-bottom: 15px;
   background: #EDF8FF;
   border-radius: 10px;
   padding: 30px 15px 53px 23px; }
@@ -523,7 +534,7 @@ img {
           align-items: center; }
 
 .footer__logo {
-  width: 265px;
+  width: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -565,7 +576,8 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: auto; }
+  width: auto;
+  margin-left: 0; }
 
 .footer__icons img {
   width: 41px;

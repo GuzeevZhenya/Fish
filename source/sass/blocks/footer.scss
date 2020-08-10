@@ -20,9 +20,10 @@
 }
 
 .footer__logo {
-    width: 265px;
+    width: auto;
     display: flex;
     align-items: center;
+
 }
 
 .footer__logo-kosher {
@@ -64,6 +65,7 @@
 .footer__icons {
     display: flex;
     width: auto;
+    margin-left: 0;
 }
 
 .footer__icons img {

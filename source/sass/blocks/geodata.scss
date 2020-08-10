@@ -46,3 +46,17 @@
         color: #000000;
     }
 }
+
+
+@media(max-width:1440px) {
+    .geodata__col {
+        width: 30%;
+    }
+}
+
+
+@media(max-width:1330px) {
+    .geodata__col {
+        width: 45%;
+    }
+}
