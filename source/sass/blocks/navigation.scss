@@ -1,16 +1,23 @@
 .navigation__list {
     width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     list-style: none;
     padding-left: 140px;
     padding-right: 73px;
     padding-bottom: 120px;
-
 }
 
-.navigation__item {}
+// .navigation__item {
+//     width: auto;
+// }
+.navigation__item:first-child {
+    margin-left: 0;
+}
+
+.navigation__item:last-child {
+    margin-right: 0;
+}
 
 .navigation__link {
     @include font-text(14px, 17px, 600);
@@ -22,6 +29,3 @@
 .navigation__link:hover {
     text-decoration: underline;
 }
-
-
-@media(min-width: $desktop-width) {}
