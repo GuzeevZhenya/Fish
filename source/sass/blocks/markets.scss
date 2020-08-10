@@ -2,9 +2,7 @@
     padding: 75px 0 110px 0;
 }
 
-.markets__inner {
-    display: flex;
-}
+.markets__inner {}
 
 .markets__title {
     text-align: center;
@@ -14,11 +12,14 @@
 
 .markets__info {
     @include font-text(14px, 24px, normal);
-    margin-left: 37px;
     color: #000000;
+    max-width: 555px;
+}
+
+.markets__img {
+    width: auto;
 }
 
 .markets__img img {
-    width: 518px;
-    height: 371px;
+    display: block;
 }

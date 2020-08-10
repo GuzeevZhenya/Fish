@@ -4,28 +4,24 @@
 }
 
 .receipes__title {
-    font-weight: 300;
-    font-size: 36px;
-    line-height: 44px;
-    /* identical to box height */
+    @include font-text(36px,
+    44px,
+    300);
     text-align: center;
     padding-bottom: 34px;
     color: #00519C;
-
 }
 
 .receipes__items {
     display: flex;
-    justify-content: space-between;
 }
 
 .receipes__item {
-    width: 49%;
+    width: 47%;
     background: #FFFFFF;
     box-shadow: 0px 1px 5px rgba(0, 35, 126, 0.06);
     border-radius: 10px;
     margin-bottom: 44px;
-
 }
 
 .receipes__item-title {
@@ -42,28 +38,28 @@
 }
 
 .receipes__item-text {
+    @include font-text(13px,
+    24px,
+    normal);
     font-weight: normal;
     font-size: 13px;
     line-height: 24px;
-    /* or 185% */
     text-align: center;
 }
 
 .receipes__item-title {
+    @include font-text(16px,
+    24px,
+    600);
     padding-bottom: 13px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    /* or 150% */
     text-align: center;
     color: #00519C;
 }
 
 .receipes__item-text {
-    font-size: 13px;
-    line-height: 24px;
-    /* or 185% */
+    @include font-text(13px,
+    24px,
+    300);
     text-align: center;
     color: #000000;
-
 }

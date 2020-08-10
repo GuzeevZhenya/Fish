@@ -5,10 +5,7 @@
 }
 
 .certificates__title {
-    font-weight: 300;
-    font-size: 36px;
-    line-height: 44px;
-    /* identical to box height */
+    @include font-text(36px, 44px, 300);
     color: #00519C;
     text-align: center;
     padding-bottom: 18px;
@@ -29,10 +26,8 @@
 }
 
 .certificates__info {
+    @include font-text(14px, 24px, 300);
     width: 528px;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
     color: #000000;
 }
 
@@ -41,12 +36,6 @@
 }
 
 .certificates__info {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-
-
+    @include font-text(14px, 24px, normal);
     color: #000000;
-
 }

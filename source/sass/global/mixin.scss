@@ -15,8 +15,8 @@
 // }
 @mixin wrapper {
     margin: 0 auto;
-    padding: 0 215px;
-    max-width: 1600px;
+    padding: 0 230px;
+    max-width: 1150px;
 }
 
 @mixin font-text($font-size: 12px, $line-height: 16px, $font-weight: 400) {
